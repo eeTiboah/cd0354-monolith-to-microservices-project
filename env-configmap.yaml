@@ -5,8 +5,20 @@ metadata:
 data:
   POSTGRES_HOST: postgres.c8zko6o2moav.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
-  AWS_BUCKET: arn:aws:s3:::udabuck
+  AWS_BUCKET: udabuck
   AWS_REGION: us-east-1
   AWS_PROFILE: iamadmin-general
   JWT_SECRET: testing
   URL: http://acdae01d0bd514de09279b35769b0968-1228524599.us-east-1.elb.amazonaws.com
+
+
+
+  # kubectl apply -f backend-feed-deployment.yaml
+  # kubectl apply -f backend-user-deployment.yaml
+  # kubectl apply -f frontend-deployment.yaml
+  # kubectl apply -f reverseproxy-deployment.yaml
+
+  # kubectl apply -f backend-feed-service.yaml
+  # kubectl apply -f backend-user-service.yaml
+  # kubectl apply -f frontend-service.yaml
+  # kubectl apply -f reverseproxy-service.yaml

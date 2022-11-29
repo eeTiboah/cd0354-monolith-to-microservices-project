@@ -17,7 +17,7 @@ spec:
         api: external
     spec:
       containers:
-        - image: tibbsdocker/udagram-frontend:v4
+        - image: tibbsdocker/udagram-frontend:v6
           name: frontend
           imagePullPolicy: Always
           ports:
